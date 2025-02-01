@@ -1,0 +1,63 @@
+body {
+  background-image: url('../backg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier";
+  color: red;
+}
+
+img {
+  height: 400px;
+  width: auto;
+  padding: 10px;
+}
+
+#valentineQuestion {
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding: 15px 25px;
+  font-family: "Courier";
+  background-color: #ffe3e1;
+  color: #e67373;
+  border-radius: 12px;
+  border: 2px solid #ffe3e1;
+  box-shadow: 1px 1px 2px #ff9494;
+  display: block; /* Ensures it takes up full width and stays above */
+  width: fit-content; /* Keeps it as wide as needed, not full width */
+  margin: 0 auto 20px auto; /* Centers it */
+}
+
+
+.answerButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "courier";
+  margin-bottom: 20px;
+  background-color: #ffe3e1;
+  color: #e67373;
+  border-radius: 12px;
+  border: 2px solid #ffe3e1;
+  box-shadow: 1px 1px 2px #ff9494;
+  transition: 0.3s;
+}
+
+.answerButton:hover {
+  background-color: #ff9494;
+  color: #ffe3e1;
+  border: 2px solid #ff9494;
+  box-shadow: 1px 1px 2px #ffe3e1;
+}
+
+#noNote {
+  font-size: 16px;
+  color: #e67373;
+  font-family: "Courier";
+  margin-left: 10px; /* Adds some space between the button and the note */
+  vertical-align: middle; /* Aligns the text vertically with the button */
+}
